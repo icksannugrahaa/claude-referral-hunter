@@ -1,0 +1,9 @@
+services:
+  hunter:
+    build: .
+    env_file: .env
+    environment:
+      CRH_STATE_DIR: /data
+    volumes:
+      - ./state:/data
+    restart: unless-stopped

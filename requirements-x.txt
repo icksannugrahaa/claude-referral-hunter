@@ -1,0 +1,4 @@
+# X/Twitter source. Official twikit 2.3.3 fails since 2026-03-18 ("Couldn't get
+# KEY_BYTE indices", d60/twikit#408). This fork fixes it; pinned to a reviewed
+# commit (diff: ondemand.s regex + tolerant User parsing).
+twikit @ git+https://github.com/unclecode/twikit.git@6a73ab97f4de09f79139f6308c9fb80029a9f5f7
